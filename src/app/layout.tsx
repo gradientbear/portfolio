@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
-        <title>Jack's Portfolio</title>
+        <title>Jack Portfolio</title>
       </Head>
       <body className={inter.className} suppressHydrationWarning>
         <Nav/>
