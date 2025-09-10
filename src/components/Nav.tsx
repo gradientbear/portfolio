@@ -52,6 +52,11 @@ export default function Nav() {
     return () => clearInterval(interval); // cleanup on unmount
   }, [fixed, invisible]);
 
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [handleScroll]);
+
   return (
     <nav
       className={`alt-section-dark ${

@@ -5,8 +5,8 @@ import { Resend } from 'resend';
 
 // Allow 5 messages per IP per hour
 const rateLimiter = new RateLimiterMemory({
-  points: 5,
-  duration: 3600,
+  points: 5, // 5 requests
+  duration: 60, // per 60 seconds
 });
 
 const resend = new Resend(process.env.RESEND_API_KEY);
