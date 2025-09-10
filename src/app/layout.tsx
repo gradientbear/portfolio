@@ -23,11 +23,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <Head>
         <title>Leon Heuers Portfolio</title>
       </Head>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         <Nav/>
         {children}
         <Footer/>

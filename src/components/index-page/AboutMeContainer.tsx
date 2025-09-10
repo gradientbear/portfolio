@@ -14,7 +14,7 @@ export default function AboutMeContainer(props: Props) {
             <Image
               src="/portrait.jpeg"
               id="about-me-img"
-              alt="Leon Heuer"
+              alt="Jack Harriz Tamm"
               width={500}
               height={500}
             ></Image>

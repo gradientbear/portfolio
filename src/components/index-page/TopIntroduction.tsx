@@ -47,11 +47,9 @@ export default function TopIntroduction() {
               <TypeIt
                 options={{
                   strings: [
-                    "App developer",
-                    "Linux enthusiast",
-                    "Java & Kotlin developer",
-                    "Hobby gamer",
-                    "Hardware tinkerer",
+                    "Ph.D in Computer Science",
+                    "AI & ML Engineer",
+                    "Python & Rust enthusiast"
                   ],
                   loop: true,
                   speed: 50,
@@ -65,15 +63,15 @@ export default function TopIntroduction() {
                 }}
               />
             </h3>
-            <h1>Leon Heuer</h1>
+            <h1>Jack Harriz Tamm</h1>
             <p className="p-no-margin">
-              My name is Leon Heuer and I welcome you to my personal portfolio.
-              I am a student and young software developer from Germany
-              with an international focus.
+              My name is Jack Harriz Tamm from Malaysia and Thank you for visiting to my personal portfolio.
+              I am a AI & ML Engineer with over 6 years of experience.
+              Let's building something together.
             </p>
             <div className="social-media-container">
               <a
-                href="https://github.com/heuerleon"
+                href="https://github.com/gradientbear"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="github"
@@ -81,7 +79,7 @@ export default function TopIntroduction() {
                 <i className="fab fa-github"></i>
               </a>
               <a
-                href="https://www.instagram.com/heuerleon/"
+                href="https://www.instagram.com/gradientbear/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="instagram"
@@ -89,7 +87,7 @@ export default function TopIntroduction() {
                 <i className="fab fa-instagram"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/leonheuer/"
+                href="https://www.linkedin.com/in/gradientbear/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="linkedin"
