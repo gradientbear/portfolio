@@ -129,14 +129,14 @@ export default function ContactForm() {
             <div className="contact-option">
               <i className="fas fa-envelope-open-text double-line-icon"></i>
               <div>
-                <span className="bold">leon(at)heuer.ovh</span>
+                <span className="bold">jack.ht.tamm(at)gmail.com</span>
                 <span className="light">Send me an email</span>
               </div>
             </div>
             <div className="contact-option">
               <i className="fab fa-discord double-line-icon"></i>
               <div>
-                <span className="bold">@haku2</span>
+                <span className="bold">gradientbear</span>
                 <span className="light">Add me on discord</span>
               </div>
             </div>

@@ -11,7 +11,7 @@ import "@/styles/fontawesome/css/all.min.css"
 import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Leon Heuer's portfolio",
+  title: "Jack Harriz Tamm's portfolio",
   description: "Personal projects and resume",
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
-        <title>Leon Heuers Portfolio</title>
+        <title>Jack's Portfolio</title>
       </Head>
       <body className={inter.className} suppressHydrationWarning>
         <Nav/>
