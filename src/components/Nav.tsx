@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 
 export default function Nav() {
   const [showMobileNav, setShowMobileNav] = useState(false);
@@ -16,7 +16,7 @@ export default function Nav() {
     NONE: 2,
   };
 
-  function handleScroll() {
+  const handleScroll = useCallback(() => {
     if (scrollBefore.current !== window.scrollY) {
       if (window.scrollY === 0) {
         setInvisible(false);
@@ -45,7 +45,7 @@ export default function Nav() {
 
       scrollBefore.current = window.scrollY;
     }
-  }
+  }, [fixed, invisible]);
 
   useEffect(() => {
     const interval = setInterval(handleScroll, 10);

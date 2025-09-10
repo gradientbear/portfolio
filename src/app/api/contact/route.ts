@@ -1,6 +1,6 @@
 import EmailTemplate from '@/components/EmailTemplate';
 import { NextRequest, NextResponse } from 'next/server';
-import { RateLimiterMemory } from 'rate-limiter-flexible';
+import { RateLimiterMemory } from "rate-limiter-flexible";
 import { Resend } from 'resend';
 
 // Allow 5 messages per IP per hour
