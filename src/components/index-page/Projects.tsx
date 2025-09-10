@@ -18,25 +18,25 @@ type Project = {
 
 const projectsDefault: Project[] = [
   {
-    image: "/projects/sc-jobs.jpg",
-    title: "SkyCave JobSystem",
+    image: "/projects/more_01_track_pedestrians.gif",
+    title: "Object Tracking",
     langs: [
       { image: "/language_icons/kotlin.svg", title: "Kotlin" },
       { image: "/language_icons/intellij.svg", title: "IntelliJ" },
       { image: "/language_icons/mongodb.svg", title: "MongoDB" },
     ],
-    source: "https://github.com/skycavemc/JobSystem",
-    description: "Plugin for the Minecraft Server SkyCave, providing Jobs with different advantages.",
+    source: "https://github.com/gradientbear/Two-Stage-Object-Tracking-with-YOLOv5-and-Deep-SORT",
+    description: "This repository implements a two-stage multi-object tracker combining the state-of-the-art YOLOv5 object detector with the Deep SORT tracking algorithm. YOLOv5 detects objects in each frame, and Deep SORT assigns consistent IDs to track these objects over time. The system can track any class of objects that your YOLOv5 model is trained on.",
   },
   {
-    image: "/projects/project-3.jpg",
-    title: "MC GUI API",
+    image: "/projects/more_02_chrome_31tr2Lbix2.gif",
+    title: "Assay Segmentation",
     langs: [
       { image: "/language_icons/java.svg", title: "Java" },
       { image: "/language_icons/intellij.svg", title: "IntelliJ IDEA" },
     ],
-    source: "https://github.com/heuerleon/mcguiapi",
-    description: "MC GUI API is an API for creating graphical user interfaces using inventories in minecraft.",
+    source: "https://github.com/gradientbear/Cell-Migration-Quantification-via-Automated-Scratch-Assay-Segmentation",
+    description: "This repository provides an automated solution for quantifying cell migration using scratch assays. By leveraging image processing techniques, the tool segments wound areas from time-lapse microscopy images to measure cell migration rates over time.",
   },
 ];
 

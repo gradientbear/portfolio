@@ -3,7 +3,7 @@ import Image from "next/image";
 const featured = [
   {
     id: 0,
-    image: "/projects/portfolio.jpg",
+    image: "/projects/01_portfolio.png",
     title: "My portfolio",
     langs: [
       { image: "/language_icons/typescript.svg", title: "TypeScript" },
@@ -16,26 +16,26 @@ const featured = [
   },
   {
     id: 1,
-    image: "/projects/osu-backup.jpg",
-    title: "osu!backup",
+    image: "/projects/01_output.gif",
+    title: "Top View Car Detection",
     langs: [
       { image: "/language_icons/csharp.svg", title: "C#" },
       { image: "/language_icons/vs.svg", title: "Visual Studio" },
     ],
-    source: "https://github.com/heuerleon/osu-backup",
-    desc: 'GUI based backupper for the game "osu!". Allows exporting you local player data and importing it conveniently on another machine. ',
+    source: "https://github.com/gradientbear/Top-View-Car-Detection-and-Enumeration-with-YOLOv5-Deep-SORT",
+    desc: 'This repository implements a system for detecting, tracking, and counting cars from a top-view perspective using YOLOv5 for object detection and Deep SORT for multi-object tracking.',
   },
   {
     id: 2,
-    image: "/projects/sc-islands.jpg",
-    title: "SkyCave Island System",
+    image: "/projects/03_segmentation.png",
+    title: "Breast Tumor Segmentation",
     langs: [
       { image: "/language_icons/java.svg", title: "Java" },
       { image: "/language_icons/intellij.svg", title: "IntelliJ IDEA" },
       { image: "/language_icons/mongodb.svg", title: "MongoDB" },
     ],
-    source: "https://github.com/skycavemc/island-system",
-    desc: "An island system for the Minecraft server SkyCave. Allows creation and management of protected Islands with their own regions, members etc.",
+    source: "https://github.com/gradientbear/Attention-Enriched-Deep-Learning-Model-for-Breast-Tumor-Segmentation",
+    desc: "Breast tumor segmentation in ultrasound images poses unique challenges due to high variability in tumor shape and boundaries. Unlike other organs, classical priors such as shape or boundary constraints are difficult to apply. To address this, we propose integrating visual saliency — which highlights regions likely to attract radiologists’ attention — into a deep learning framework.",
   },
 ];
 

@@ -65,8 +65,8 @@ export default function TopIntroduction() {
             </h3>
             <h1>Jack Harriz Tamm</h1>
             <p className="p-no-margin">
-              My name is Jack Harriz Tamm from Malaysia and Thank you for visiting to my personal portfolio.
-              I am a AI & ML Engineer with over 6 years of experience.
+              My name is Jack Harriz Tamm from Malaysia and thank you for visiting to my personal portfolio.
+              I am an AI & ML Engineer focusing on Computer Vision, NLP and Data Science.
               Let's building something together.
             </p>
             <div className="social-media-container">
