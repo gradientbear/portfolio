@@ -17,7 +17,7 @@
     "next": "15.5.2",
     "rate-limiter-flexible": "^7.2.0",
     "react": "^19.0.0",
-    "react-dom": "^19.1.1",
+    "react-dom": "^19.2.0",
     "react-turnstile": "^1.1.4",
     "resend": "^6.0.1",
     "typeit-react": "^2.7.8"
